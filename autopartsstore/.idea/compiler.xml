@@ -10,6 +10,7 @@
         <module name="autopartsstore-entity" />
         <module name="autopartsstore-hibernateconfig" />
         <module name="autopartsstore-runner" />
+        <module name="autopartsstore-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,6 +19,7 @@
       <module name="autopartsstore-entity" target="1.5" />
       <module name="autopartsstore-hibernateconfig" target="1.5" />
       <module name="autopartsstore-runner" target="1.5" />
+      <module name="autopartsstore-service" target="1.5" />
       <module name="autopartsstoreentity" target="1.5" />
     </bytecodeTargetLevel>
   </component>

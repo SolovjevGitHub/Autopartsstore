@@ -163,4 +163,9 @@ public class Autopart implements Serializable {
     public void setPrice(Float price) {
         this.price = price;
     }
+
+    @Override
+    public String toString() {
+        return id+", "+name+" ,"+partNumber;
+    }
 }

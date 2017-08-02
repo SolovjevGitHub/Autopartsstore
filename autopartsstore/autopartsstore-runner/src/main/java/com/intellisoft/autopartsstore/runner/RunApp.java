@@ -4,6 +4,7 @@ import com.intellisoft.autopartsstore.api.AbstarctDao;
 import com.intellisoft.autopartsstore.dao.impls.ICarMakeImpl;
 import com.intellisoft.autopartsstore.entitys.CarMake;
 import com.intellisoft.autopartsstore.hibernateutil.HibernateUtil;
+import com.intellisoft.autopartsstore.service.entityservices.CarMakeService;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
@@ -14,11 +15,15 @@ import java.util.List;
  */
 public class RunApp {
     public static void main(String[] args) {
-       ICarMakeImpl iCarMake=new ICarMakeImpl();
-       Session session=HibernateUtil.getHibernateSessionFactory().getSession();
+        CarMakeService carMakeService=new CarMakeService();
+       // carMakeService.getById(2);
+      // carMakeService.getAll();
+        CarMake carMake=carMakeService.getById(-5);
 
 
-        System.out.println(iCarMake.getById(2,session).toString());
+
+
+
 
     }
 }

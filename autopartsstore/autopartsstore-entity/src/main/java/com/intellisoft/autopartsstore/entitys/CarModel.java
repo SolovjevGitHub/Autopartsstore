@@ -152,4 +152,9 @@ public class CarModel implements Serializable {
     public void setYearTo(Integer yearTo) {
         this.yearTo = yearTo;
     }
+
+    @Override
+    public String toString() {
+        return id+", "+model;
+    }
 }

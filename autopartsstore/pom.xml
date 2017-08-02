@@ -13,6 +13,7 @@
         <module>autopartsstore-runner</module>
         <module>autopartsstore-hibernateconfig</module>
         <module>autopartsstore-dao</module>
+        <module>autopartsstore-service</module>
     </modules>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->

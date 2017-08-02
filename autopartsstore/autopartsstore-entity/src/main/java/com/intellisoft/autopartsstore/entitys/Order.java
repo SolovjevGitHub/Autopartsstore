@@ -100,4 +100,9 @@ public class Order implements Serializable {
     public void setPrice(Float price) {
         this.price = price;
     }
+
+    @Override
+    public String toString() {
+        return id+", "+number;
+    }
 }

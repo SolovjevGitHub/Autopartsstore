@@ -13,9 +13,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public  class AbstarctDao <T>{
+public class AbstarctDao<T> {
     private Transaction transaction;
-    private static HibernateUtil hibernateUtil=HibernateUtil.getHibernateSessionFactory();
+    private static HibernateUtil hibernateUtil = HibernateUtil.getHibernateSessionFactory();
     public Class<T> clazz;
 
 
@@ -23,40 +23,35 @@ public  class AbstarctDao <T>{
         this.clazz = clazz;
     }
 
-    public void save(T entity, Session session){
+    public void save(T entity, Session session) throws Exception {
 
-        transaction=session.getTransaction();
-        transaction.begin();
         session.save(entity);
-        transaction.commit();
-        hibernateUtil.closeSession(session);
 
     }
-    public void update(T entity, Session session){
-        transaction=session.getTransaction();
-        transaction.begin();
+
+    public void update(T entity, Session session) throws Exception {
+
         session.update(entity);
-        transaction.commit();
-        hibernateUtil.closeSession(session);
+
     }
-    public  T getById(Integer id, Session session){
 
+    public void delete(T entity, Session session) throws Exception{
 
-        transaction=session.getTransaction();
-        transaction.begin();
-        Criteria criteria=session.createCriteria(clazz);
-        T entity=(T)criteria.list().get(0);
-        transaction.commit();
-        hibernateUtil.closeSession(session);
+        session.delete(entity);
+    }
+
+    public T getById(Integer id, Session session) throws Exception {
+
+        Criteria criteria = session.createCriteria(clazz);
+        T entity = (T) criteria.list().get(id-1);
+
         return entity;
     }
-    public List<T> getAll(Session session){
-        transaction=session.getTransaction();
-        transaction.begin();
-        Criteria criteria=session.createCriteria(clazz);
-        List<T> listAll=criteria.list();
-        transaction.commit();
-        hibernateUtil.closeSession(session);
+
+    public List<T> getAll(Session session) throws Exception {
+
+        Criteria criteria = session.createCriteria(clazz);
+        List<T> listAll = criteria.list();
 
         return listAll;
     }

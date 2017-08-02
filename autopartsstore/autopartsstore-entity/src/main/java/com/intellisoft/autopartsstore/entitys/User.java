@@ -124,4 +124,9 @@ public class User implements Serializable {
     public void setUniqueKey(String uniqueKey) {
         this.uniqueKey = uniqueKey;
     }
+
+    @Override
+    public String toString() {
+        return id+", "+firstName+" "+lastName;
+    }
 }

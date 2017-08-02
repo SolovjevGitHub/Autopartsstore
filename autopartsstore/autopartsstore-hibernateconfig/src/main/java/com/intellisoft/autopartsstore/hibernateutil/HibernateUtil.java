@@ -3,6 +3,7 @@ package com.intellisoft.autopartsstore.hibernateutil;
 import org.apache.log4j.Logger;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
 
@@ -14,6 +15,7 @@ public class HibernateUtil {
     private static SessionFactory sessionFactory;
 
     private Session session;
+    private Transaction transaction;
 
     private HibernateUtil() {
     }
@@ -37,15 +39,31 @@ public class HibernateUtil {
     }
 
 
-    public Session getSession() {
-        if (session == null) {
+    public Session openSession() {
+        if (session == null || !session.isOpen()) {
             session = sessionFactory.openSession();
         }
         return session;
     }
-    public void closeSession(Session session){
+
+    public Session openSessionWithTransaction() {
+        if (session == null || !session.isOpen()) {
+            session = sessionFactory.openSession();
+            transaction = session.beginTransaction();
+
+        }
+        return session;
+    }
+
+    public void closeSession(Session session) {
         session.close();
     }
 
+    public void closeSessionWithTransaction() {
+        if (session != null) {
+            transaction.commit();
+            session.close();
+        }
+    }
 
 }
