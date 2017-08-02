@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="autopartsstore-dao" />
+        <module name="autopartsstore-entity" />
+        <module name="autopartsstore-hibernateconfig" />
+        <module name="autopartsstore-runner" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="autopartsstore" target="1.5" />
+      <module name="autopartsstore-dao" target="1.5" />
+      <module name="autopartsstore-entity" target="1.5" />
+      <module name="autopartsstore-hibernateconfig" target="1.5" />
+      <module name="autopartsstore-runner" target="1.5" />
+      <module name="autopartsstoreentity" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
