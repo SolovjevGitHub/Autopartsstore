@@ -20,18 +20,14 @@ public class UserRole implements Serializable {
     private List<User> users=new ArrayList<User>();
 
 
-    //Constructors
-    public UserRole() {
-    }
+    /**constructors*/
+    public UserRole() {}
 
     public UserRole(String name) {
         this.name = name;
     }
 
-    public UserRole(String name, List<User> users) {
-        this.name = name;
-        this.users = users;
-    }
+    /**getter and setter*/
 
     public List<User> getUsers() {
         return users;
@@ -59,6 +55,10 @@ public class UserRole implements Serializable {
 
     @Override
     public String toString() {
-        return id+", "+name;
+        final StringBuilder sb = new StringBuilder("UserRole{");
+        sb.append("id=").append(id);
+        sb.append(", name='").append(name).append('\'');
+        sb.append('}');
+        return sb.toString();
     }
 }

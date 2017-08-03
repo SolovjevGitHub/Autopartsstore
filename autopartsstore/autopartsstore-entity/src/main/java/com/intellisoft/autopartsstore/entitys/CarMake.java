@@ -21,18 +21,15 @@ public class CarMake implements Serializable {
     @OneToMany(fetch = FetchType.LAZY, targetEntity = CarModel.class, mappedBy = "carMake")
     private List<CarModel> carModels = new ArrayList<CarModel>();
 
-    //Constructors
-    public CarMake() {
-    }
+    /**constructor*/
+
+    public CarMake() {}
 
     public CarMake(String name) {
         this.name = name;
     }
 
-    public CarMake(String name, List<CarModel> carModels) {
-        this.name = name;
-        this.carModels = carModels;
-    }
+    /**setter and getter*/
 
     public List<CarModel> getCarModels() {
         return carModels;
@@ -61,6 +58,10 @@ public class CarMake implements Serializable {
 
     @Override
     public String toString() {
-        return  id+", "+name;
+        final StringBuilder sb = new StringBuilder("CarMake{");
+        sb.append("id=").append(id);
+        sb.append(", name='").append(name).append('\'');
+        sb.append('}');
+        return sb.toString();
     }
 }

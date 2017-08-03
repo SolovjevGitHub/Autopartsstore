@@ -38,43 +38,13 @@ public class Autopart implements Serializable {
     @ManyToMany(fetch = FetchType.LAZY, mappedBy = "autoparts")
     private List<Order> orders = new ArrayList<Order>();
 
-
+    /**constructor*/
     public Autopart() {
     }
 
-    public Autopart(String name, String partNumber, String note, String quantitySold, String warranty, Float price) {
-        this.name = name;
-        this.partNumber = partNumber;
-        this.note = note;
-        this.quantitySold = quantitySold;
-        this.warranty = warranty;
-        this.price = price;
-    }
 
-    public Autopart(String name, String partNumber, String note, String quantitySold, String warranty, Float price, AutopartBrand autopartBrand, AutopartCategories autopartCategories, CarModel carModel) {
-        this.name = name;
-        this.partNumber = partNumber;
-        this.note = note;
-        this.quantitySold = quantitySold;
-        this.warranty = warranty;
-        this.price = price;
-        this.autopartBrand = autopartBrand;
-        this.autopartCategories = autopartCategories;
-        this.carModel = carModel;
-    }
 
-    public Autopart(String name, String partNumber, String note, String quantitySold, String warranty, Float price, AutopartBrand autopartBrand, AutopartCategories autopartCategories, CarModel carModel, List<Order> orders) {
-        this.name = name;
-        this.partNumber = partNumber;
-        this.note = note;
-        this.quantitySold = quantitySold;
-        this.warranty = warranty;
-        this.price = price;
-        this.autopartBrand = autopartBrand;
-        this.autopartCategories = autopartCategories;
-        this.carModel = carModel;
-        this.orders = orders;
-    }
+    /**getter and setter*/
 
     public List<Order> getOrders() {
         return orders;
@@ -166,6 +136,15 @@ public class Autopart implements Serializable {
 
     @Override
     public String toString() {
-        return id+", "+name+" ,"+partNumber;
+        final StringBuilder sb = new StringBuilder("Autopart{");
+        sb.append("id=").append(id);
+        sb.append(", name='").append(name).append('\'');
+        sb.append(", partNumber='").append(partNumber).append('\'');
+        sb.append(", note='").append(note).append('\'');
+        sb.append(", quantitySold='").append(quantitySold).append('\'');
+        sb.append(", warranty='").append(warranty).append('\'');
+        sb.append(", price=").append(price);
+        sb.append('}');
+        return sb.toString();
     }
 }

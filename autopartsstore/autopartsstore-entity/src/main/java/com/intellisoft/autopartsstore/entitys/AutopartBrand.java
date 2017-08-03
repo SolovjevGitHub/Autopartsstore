@@ -20,7 +20,8 @@ public class AutopartBrand implements Serializable{
     private List<Autopart> autoparts=new ArrayList<Autopart>();
 
 
-    //Constructors
+    /**constructor*/
+
     public AutopartBrand() {
     }
 
@@ -28,12 +29,8 @@ public class AutopartBrand implements Serializable{
         this.name = name;
     }
 
-    public AutopartBrand(String name, List<Autopart> autoparts) {
-        this.name = name;
-        this.autoparts = autoparts;
-    }
 
-    //Getters and setters
+    /**getter and setter*/
 
     public List<Autopart> getAutoparts() {
         return autoparts;
@@ -61,6 +58,10 @@ public class AutopartBrand implements Serializable{
 
     @Override
     public String toString() {
-        return id+", "+name;
+        final StringBuilder sb = new StringBuilder("AutopartBrand{");
+        sb.append("id=").append(id);
+        sb.append(", name='").append(name).append('\'');
+        sb.append('}');
+        return sb.toString();
     }
 }

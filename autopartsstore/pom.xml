@@ -14,6 +14,7 @@
         <module>autopartsstore-hibernateconfig</module>
         <module>autopartsstore-dao</module>
         <module>autopartsstore-service</module>
+        <module>autopartsstore-daoimpl</module>
     </modules>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->

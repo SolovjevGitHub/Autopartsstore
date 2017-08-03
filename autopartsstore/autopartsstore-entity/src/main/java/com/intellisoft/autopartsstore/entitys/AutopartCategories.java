@@ -19,7 +19,8 @@ public class AutopartCategories implements Serializable {
     @OneToMany(fetch = FetchType.LAZY,targetEntity = Autopart.class,mappedBy = "autopartCategories")
     private List<Autopart> autoparts=new ArrayList<Autopart>();
 
-    //Constructors
+    /**onstructor*/
+
     public AutopartCategories() {
     }
 
@@ -27,12 +28,9 @@ public class AutopartCategories implements Serializable {
         this.name = name;
     }
 
-    public AutopartCategories(String name, List<Autopart> autoparts) {
-        this.name = name;
-        this.autoparts = autoparts;
-    }
 
-    //Getters and setters
+
+    /**getter and setter*/
 
 
     public List<Autopart> getAutoparts() {
@@ -61,6 +59,10 @@ public class AutopartCategories implements Serializable {
 
     @Override
     public String toString() {
-        return id+", "+name;
+        final StringBuilder sb = new StringBuilder("AutopartCategories{");
+        sb.append("id=").append(id);
+        sb.append(", name='").append(name).append('\'');
+        sb.append('}');
+        return sb.toString();
     }
 }

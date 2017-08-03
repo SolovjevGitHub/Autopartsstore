@@ -28,9 +28,8 @@ public class Order implements Serializable {
     @JoinTable(name = "autoparts_has_orders",joinColumns = {@JoinColumn(name = "orders_id")},inverseJoinColumns = {@JoinColumn(name = "autoparts_id")})
     private List<Autopart> autoparts=new ArrayList<Autopart>();
 
-    //constructors
-    public Order() {
-    }
+    /**constructor*/
+    public Order() {}
 
     public Order(Integer number, Date date, Float price) {
         this.number = number;
@@ -38,20 +37,7 @@ public class Order implements Serializable {
         this.price = price;
     }
 
-    public Order(Integer number, Date date, Float price, User user) {
-        this.number = number;
-        this.date = date;
-        this.price = price;
-        this.user = user;
-    }
-
-    public Order(Integer number, Date date, Float price, User user, List<Autopart> autoparts) {
-        this.number = number;
-        this.date = date;
-        this.price = price;
-        this.user = user;
-        this.autoparts = autoparts;
-    }
+    /**getter and setter*/
 
     public List<Autopart> getAutoparts() {
         return autoparts;
@@ -103,6 +89,12 @@ public class Order implements Serializable {
 
     @Override
     public String toString() {
-        return id+", "+number;
+        final StringBuilder sb = new StringBuilder("Order{");
+        sb.append("id=").append(id);
+        sb.append(", number=").append(number);
+        sb.append(", date=").append(date);
+        sb.append(", price=").append(price);
+        sb.append('}');
+        return sb.toString();
     }
 }

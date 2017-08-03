@@ -34,8 +34,9 @@ public class CarModel implements Serializable {
     @OneToMany(fetch = FetchType.LAZY,targetEntity = Autopart.class,mappedBy = "carModel")
     private List<Autopart> autoparts=new ArrayList<Autopart>();
 
-    public CarModel() {
-    }
+    /**constructor*/
+
+    public CarModel() {}
 
     public CarModel(String model, String bodyCode, String engineType, float engineCapacit, Integer power, Integer yearFrom, Integer yearTo) {
         this.model = model;
@@ -47,28 +48,7 @@ public class CarModel implements Serializable {
         this.yearTo = yearTo;
     }
 
-    public CarModel(String model, String bodyCode, String engineType, Float engineCapacit, Integer power, Integer yearFrom, Integer yearTo, CarMake carMake) {
-        this.model = model;
-        this.bodyCode = bodyCode;
-        this.engineType = engineType;
-        this.engineCapacit = engineCapacit;
-        this.power = power;
-        this.yearFrom = yearFrom;
-        this.yearTo = yearTo;
-        this.carMake = carMake;
-    }
-
-    public CarModel(String model, String bodyCode, String engineType, Float engineCapacit, Integer power, Integer yearFrom, Integer yearTo, CarMake carMake, List<Autopart> autoparts) {
-        this.model = model;
-        this.bodyCode = bodyCode;
-        this.engineType = engineType;
-        this.engineCapacit = engineCapacit;
-        this.power = power;
-        this.yearFrom = yearFrom;
-        this.yearTo = yearTo;
-        this.carMake = carMake;
-        this.autoparts = autoparts;
-    }
+    /**getter and setter*/
 
     public Float getEngineCapacit() {
         return engineCapacit;
@@ -155,6 +135,16 @@ public class CarModel implements Serializable {
 
     @Override
     public String toString() {
-        return id+", "+model;
+        final StringBuilder sb = new StringBuilder("CarModel{");
+        sb.append("id=").append(id);
+        sb.append(", model='").append(model).append('\'');
+        sb.append(", bodyCode='").append(bodyCode).append('\'');
+        sb.append(", engineType='").append(engineType).append('\'');
+        sb.append(", engineCapacit=").append(engineCapacit);
+        sb.append(", power=").append(power);
+        sb.append(", yearFrom=").append(yearFrom);
+        sb.append(", yearTo=").append(yearTo);
+        sb.append('}');
+        return sb.toString();
     }
 }

@@ -31,8 +31,9 @@ public class User implements Serializable {
     @OneToMany(fetch = FetchType.LAZY,targetEntity = Order.class,mappedBy = "user" )
     private List<Order> orders=new ArrayList<Order>();
 
-    public User() {
-    }
+    /**constructor*/
+
+    public User() {}
 
     public User(String firstName, String lastName, String phoneNumber, String email, String uniqueKey) {
         this.firstName = firstName;
@@ -42,24 +43,7 @@ public class User implements Serializable {
         this.uniqueKey = uniqueKey;
     }
 
-    public User(String firstName, String lastName, String phoneNumber, String email, String uniqueKey, UserRole userRole) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.phoneNumber = phoneNumber;
-        this.email = email;
-        this.uniqueKey = uniqueKey;
-        this.userRole = userRole;
-    }
-
-    public User(String firstName, String lastName, String phoneNumber, String email, String uniqueKey, UserRole userRole, List<Order> orders) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.phoneNumber = phoneNumber;
-        this.email = email;
-        this.uniqueKey = uniqueKey;
-        this.userRole = userRole;
-        this.orders = orders;
-    }
+    /**getter and setter*/
 
     public List<Order> getOrders() {
         return orders;
@@ -127,6 +111,14 @@ public class User implements Serializable {
 
     @Override
     public String toString() {
-        return id+", "+firstName+" "+lastName;
+        final StringBuilder sb = new StringBuilder("User{");
+        sb.append("id=").append(id);
+        sb.append(", firstName='").append(firstName).append('\'');
+        sb.append(", lastName='").append(lastName).append('\'');
+        sb.append(", phoneNumber='").append(phoneNumber).append('\'');
+        sb.append(", email='").append(email).append('\'');
+        sb.append(", uniqueKey='").append(uniqueKey).append('\'');
+        sb.append('}');
+        return sb.toString();
     }
 }

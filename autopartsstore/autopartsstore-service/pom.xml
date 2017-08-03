@@ -17,7 +17,7 @@
         <version>1.0-SNAPSHOT</version>
     </dependency>
     <dependency>
-        <artifactId>autopartsstore-hibernateconfig</artifactId>
+        <artifactId>autopartsstore-daoimpl</artifactId>
         <groupId>com.intellisoft.autopartsstore</groupId>
         <version>1.0-SNAPSHOT</version>
     </dependency>
