@@ -21,11 +21,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RunApp.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/autopartsstore-runner/src/main/java/com/intellisoft/autopartsstore/runner/RunApp.java">
+      <file leaf-file-name="IOrderDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/entitydao/IOrderDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IUserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/entitydao/IUserDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+              <caret line="18" column="90" lean-forward="false" selection-start-line="18" selection-start-column="90" selection-end-line="18" selection-end-column="90" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IAutopartService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/com/intellisoft/autopartsstore/service/servicesapi/IAutopartService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="67" lean-forward="false" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,120 +53,72 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CarMake.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/CarMake.java">
+      <file leaf-file-name="IAutopartDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/entitydao/IAutopartDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-              <folding>
-                <element signature="method#toString#0;class#CarMake#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CarMakeService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/entityservices/CarMakeService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="method#getById#0;class#CarMakeService#0" expanded="false" />
-                <element signature="method#delete#0;class#CarMakeService#0" expanded="false" />
-                <element signature="method#getAll#0;class#CarMakeService#0" expanded="false" />
-                <element signature="method#save#0;class#CarMakeService#0" expanded="false" />
-                <element signature="method#update#0;class#CarMakeService#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CarModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/CarModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-451">
-              <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-              <folding>
-                <element signature="method#CarModel#1;class#CarModel#0" expanded="false" />
-                <element signature="method#toString#0;class#CarModel#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/Order.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="90" column="18" lean-forward="false" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
-              <folding>
-                <element signature="method#Order#1;class#Order#0" expanded="false" />
-                <element signature="method#toString#0;class#Order#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Autopart.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/Autopart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="137" column="18" lean-forward="false" selection-start-line="137" selection-start-column="18" selection-end-line="137" selection-end-column="18" />
-              <folding>
-                <element signature="method#Autopart#0;class#Autopart#0" expanded="false" />
-                <element signature="method#setAutopartCategories#0;class#Autopart#0" expanded="false" />
-                <element signature="method#toString#0;class#Autopart#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HibernateUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/hibernateutil/HibernateUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="48" column="45" lean-forward="false" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
-              <folding>
-                <element signature="method#setSessionFactory#0;class#HibernateUtil#0" expanded="false" />
-                <element signature="method#openSession#0;class#HibernateUtil#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IGenericDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/api/IGenericDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="221">
+              <caret line="20" column="102" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="20" selection-end-column="102" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AutopartBrand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/AutopartBrand.java">
+      <file leaf-file-name="ICarMakeDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/entitydao/ICarMakeDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-              <folding>
-                <element signature="e#313#316#0" expanded="false" />
-                <element signature="method#AutopartBrand#0;class#AutopartBrand#0" expanded="false" />
-                <element signature="method#toString#0;class#AutopartBrand#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AutopartCategories.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/AutopartCategories.java">
+      <file leaf-file-name="IUserRoleDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/entitydao/IUserRoleDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="method#AutopartCategories#0;class#AutopartCategories#0" expanded="false" />
-                <element signature="method#toString#0;class#AutopartCategories#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IAutopartCategorieService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/com/intellisoft/autopartsstore/service/servicesapi/IAutopartCategorieService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IAutopartBrandDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/entitydao/IAutopartBrandDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ICarModelDao.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/entitydao/ICarModelDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IAutopartCategorieDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/entitydao/IAutopartCategorieDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -168,39 +140,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/api/IGenericDao.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/hibernateutil/HibernateUtil.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/entityimpls/AutopartCategoriesDaoImpl.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/entityservices/AutopartCategoriesService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/autopartsstore-runner/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/autopartsstore-hibernateconfig/src/main/java/com/intellisoft/autopartsstore/hibernateutil/HibernateSessionFactory.java" />
-        <option value="$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/api/dao/AbstractDao.java" />
-        <option value="$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/api/GenericDao.java" />
-        <option value="$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/impls/ICarMakeImpl.java" />
-        <option value="$PROJECT_DIR$/autopartsstore-hibernateconfig/src/main/java/com/intellisoft/autopartsstore/hibernateutil/HibernateSession.java" />
-        <option value="$PROJECT_DIR$/autopartsstore-runner/pom.xml" />
-        <option value="$PROJECT_DIR$/autopartsstore-hibernateconfig/src/main/java/com/intellisoft/autopartsstore/hibernateutil/HibernateUtil.java" />
-        <option value="$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/api/AbstarctDao.java" />
-        <option value="$PROJECT_DIR$/autopartsstore-runner/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/api/AbstarctDao.java" />
-        <option value="$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/UserRole.java" />
-        <option value="$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/Order.java" />
-        <option value="$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/Autopart.java" />
-        <option value="$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/impls/HibernateUtil.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/entityservices/AutopartCategorieService.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/entityservices/AutopartService.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/entityservices/CarModelService.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/entityservices/OrderService.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/entityservices/UserRoleService.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/entityservices/UserService.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/api/IAutopartBrandService.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/api/ICarMakeService.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/genericdaoapi/ICarMakeService.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/serviceapi/ICarMakeService.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/genericdaoapi/IGenericDao.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/genericdaoapi/IAutopartDao.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/com/intellisoft/autopartsstore/dao/entitydao/IAutopartDao.java" />
         <option value="$PROJECT_DIR$/autopartsstore-dao/pom.xml" />
         <option value="$PROJECT_DIR$/autopartsstore-daoimpl/pom.xml" />
-        <option value="$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/abstractdao.java" />
-        <option value="$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/api.java" />
-        <option value="$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/abstractdao/AbstarctDao.java" />
-        <option value="$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/impls/CarMakeDaoImpl.java" />
-        <option value="$PROJECT_DIR$/autopartsstore-service/pom.xml" />
-        <option value="$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/hibernateutil/HibernateUtil.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/abstractdao/AbstractDaoImpl.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/abstractdao/GenericDaoImpl.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/genericdaoimpl/GenericDaoImpl.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/entitydao/IAutopartBrandDao.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/entitydao/IAutopartCategorieDao.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/entitydao/IAutopartDao.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/entityimpls/AutopartDaoImpl.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/entitydao/ICarMakeDao.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/entityimpls/CarMakeDaoImpl.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/entitydao/ICarModelDao.java" />
         <option value="$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/entityservices/CarMakeService.java" />
-        <option value="$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/abstractdao/AbstarctDao.java" />
-        <option value="$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/AutopartBrand.java" />
-        <option value="$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/AutopartCategories.java" />
-        <option value="$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/CarMake.java" />
-        <option value="$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/CarModel.java" />
-        <option value="$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/User.java" />
-        <option value="$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/api/IGenericDao.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/entityimpls/CarModelDaoImpl.java" />
         <option value="$PROJECT_DIR$/autopartsstore-runner/src/main/java/com/intellisoft/autopartsstore/runner/RunApp.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/entitydao/IOrderDao.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/entityimpls/AutopartCategorieDaoImpl.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/entityimpls/AutopartBrandDaoImpl.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/entityimpls/OrderDaoImpl.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/entitydao/IUserRoleDao.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/entitydao/IUserDao.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/entityimpls/UserRoleDaoImpl.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/entityimpls/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/genericservice/GenericServic.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/genericservice/GenericService.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/genericserviceimpl/GenericServiceImpl.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/com/intellisoft/autopartsstore/service/servicesapi/IAutopartBrandService.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/entityservices/AutopartBrandService.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/entityservices/AutopartBrandServiceImpl.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/entityserviceimpls/AutopartBrandServiceImpl.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/com/intellisoft/autopartsstore/service/servicesapi/IAutopartCategorieService.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/com/intellisoft/autopartsstore/service/servicesapi/IAutopartServiceImpl.java" />
+        <option value="$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/entityserviceimpls/AutopartServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -238,8 +228,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -252,9 +241,196 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autopartsstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autopartsstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autopartsstore-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autopartsstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autopartsstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autopartsstore-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autopartsstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autopartsstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autopartsstore-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autopartsstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autopartsstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autopartsstore-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autopartsstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autopartsstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autopartsstore-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genericservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autopartsstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autopartsstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autopartsstore-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entityserviceimpls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autopartsstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autopartsstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autopartsstore-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="servicesapi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -716,15 +892,19 @@
       <workItem from="1501616427234" duration="8283000" />
       <workItem from="1501675086691" duration="19633000" />
       <workItem from="1501703504455" duration="140000" />
-      <workItem from="1501778496564" duration="12259000" />
+      <workItem from="1501778496564" duration="13048000" />
+      <workItem from="1501864612944" duration="17170000" />
+      <workItem from="1501916347842" duration="1286000" />
+      <workItem from="1502012271653" duration="5848000" />
+      <workItem from="1502132690698" duration="17509000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40315000" />
+    <option name="totallyTimeSpent" value="82917000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -736,14 +916,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33441558" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25746268" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26812366" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -779,11 +959,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25799572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26545843" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
@@ -796,7 +976,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="24" />
+      <option name="time" value="37" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -805,143 +985,138 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/abstractdao/AbstarctDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/autopartsstore-dao/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="50" column="59" lean-forward="false" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-runner/src/main/java/com/intellisoft/autopartsstore/runner/RunApp.java">
+    <entry file="file://$PROJECT_DIR$/autopartsstore-daoimpl/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/entityservices/CarMakeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" column="39" lean-forward="false" selection-start-line="83" selection-start-column="39" selection-end-line="83" selection-end-column="39" />
-          <folding>
-            <element signature="method#getById#0;class#CarMakeService#0" expanded="false" />
-            <element signature="method#delete#0;class#CarMakeService#0" expanded="false" />
-            <element signature="method#getAll#0;class#CarMakeService#0" expanded="false" />
-            <element signature="method#save#0;class#CarMakeService#0" expanded="false" />
-            <element signature="method#update#0;class#CarMakeService#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-runner/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/CarMake.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="e#594#604#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.1.4.Final/hibernate-core-4.1.4.Final.jar!/org/hibernate/engine/transaction/internal/jdbc/JdbcTransactionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#895#896#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.1.4.Final/hibernate-core-4.1.4.Final.jar!/org/hibernate/engine/transaction/internal/TransactionCoordinatorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="195" column="0" lean-forward="false" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+          <folding>
+            <element signature="e#6017#6018#0" expanded="true" />
+            <element signature="e#6063#6064#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.1.4.Final/hibernate-core-4.1.4.Final.jar!/org/hibernate/internal/util/ReflectHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.1.4.Final/hibernate-core-4.1.4.Final.jar!/org/hibernate/tuple/entity/EntityMetamodel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="695" column="0" lean-forward="false" selection-start-line="695" selection-start-column="0" selection-end-line="695" selection-end-column="0" />
+          <folding>
+            <element signature="e#30006#30007#0" expanded="true" />
+            <element signature="e#30038#30039#0" expanded="true" />
+            <element signature="e#32289#32290#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.1.4.Final/hibernate-core-4.1.4.Final.jar!/org/hibernate/persister/entity/AbstractEntityPersister.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="3066" column="0" lean-forward="false" selection-start-line="3066" selection-start-column="0" selection-end-line="3066" selection-end-column="0" />
+          <folding>
+            <element signature="e#142266#142267#0" expanded="true" />
+            <element signature="e#142319#142320#0" expanded="true" />
+            <element signature="e#147911#147912#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.1.4.Final/hibernate-core-4.1.4.Final.jar!/org/hibernate/internal/SessionFactoryImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="1131" column="0" lean-forward="false" selection-start-line="1131" selection-start-column="0" selection-end-line="1131" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.1.4.Final/hibernate-core-4.1.4.Final.jar!/org/hibernate/internal/CriteriaImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="378" column="0" lean-forward="false" selection-start-line="378" selection-start-column="0" selection-end-line="378" selection-end-column="0" />
+          <folding>
+            <element signature="e#2952#2953#0" expanded="true" />
+            <element signature="e#2997#2998#0" expanded="true" />
+            <element signature="e#12773#12774#0" expanded="true" />
+            <element signature="e#12818#12819#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.1.4.Final/hibernate-core-4.1.4.Final.jar!/org/hibernate/internal/AbstractSessionImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding>
+            <element signature="e#3567#3568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.1.4.Final/hibernate-core-4.1.4.Final.jar!/org/hibernate/internal/SessionImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="1823" column="0" lean-forward="false" selection-start-line="1823" selection-start-column="0" selection-end-line="1823" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/CarModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2669">
-          <caret line="157" column="28" lean-forward="false" selection-start-line="157" selection-start-column="28" selection-end-line="157" selection-end-column="28" />
+        <state relative-caret-position="374">
+          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="28" />
           <folding>
             <element signature="method#CarModel#1;class#CarModel#0" expanded="false" />
-            <element signature="method#toString#0;class#CarModel#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="105" column="29" lean-forward="false" selection-start-line="105" selection-start-column="29" selection-end-line="105" selection-end-column="29" />
-          <folding>
-            <element signature="method#Order#1;class#Order#0" expanded="false" />
-            <element signature="method#toString#0;class#Order#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/entityimpls/CarMakeDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="129" column="45" lean-forward="false" selection-start-line="129" selection-start-column="45" selection-end-line="129" selection-end-column="45" />
-          <folding>
-            <element signature="method#User#1;class#User#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/UserRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="61" column="27" lean-forward="false" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
-          <folding>
-            <element signature="method#toString#0;class#UserRole#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/abstractdao/AbstarctDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="50" column="59" lean-forward="false" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-runner/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-runner/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="71" lean-forward="false" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-hibernateconfig/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="58" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/hibernateutil/HibernateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="41" column="50" lean-forward="false" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
+        <state relative-caret-position="356">
+          <caret line="41" column="23" lean-forward="false" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
           <folding>
             <element signature="method#setSessionFactory#0;class#HibernateUtil#0" expanded="false" />
             <element signature="method#openSession#0;class#HibernateUtil#0" expanded="false" />
@@ -949,123 +1124,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/abstractdao/AbstarctDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/entityimpls/CarMakeDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-entity/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/autopartsstore-runner/src/main/java/com/intellisoft/autopartsstore/runner/RunApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/api/GenericDao.java" />
-    <entry file="file://$PROJECT_DIR$/autopartsstoreentity/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/autopartsstore-runner/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="71" lean-forward="false" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
+        <state relative-caret-position="383">
+          <caret line="54" column="57" lean-forward="false" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/api/dao/GenericDao.java" />
-    <entry file="file://$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/api/dao/AbstractDao.java" />
-    <entry file="file://$PROJECT_DIR$/autopartsstore-hibernateconfig/pom.xml">
+    <entry file="file://$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/AutopartBrand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="58" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/api/GenericDao.java" />
-    <entry file="file://$PROJECT_DIR$/autopartsstore-hibernateconfig/src/main/java/com/intellisoft/autopartsstore/hibernateutil/HibernateSession.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="117">
+          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-runner/pom.xml">
+    <entry file="file://$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/Autopart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="32" column="43" lean-forward="false" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-runner/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-entity/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/abstractdao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/api.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="47" />
+        <state relative-caret-position="372">
+          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -1073,172 +1151,335 @@
     <entry file="file://$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/entityimpls/CarMakeDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-daoimpl/pom.xml">
+    <entry file="file://$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/entityimpls/CarModelDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="51" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="55" lean-forward="false" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/abstractdao/AbstarctDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="38" column="60" lean-forward="false" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+        <state relative-caret-position="153">
+          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="method#save#0;class#AbstarctDaoImpl#0" expanded="false" />
-            <element signature="method#update#0;class#AbstarctDaoImpl#0" expanded="false" />
-            <element signature="method#delete#0;class#AbstarctDaoImpl#0" expanded="false" />
-            <element signature="method#getById#0;class#AbstarctDaoImpl#0" expanded="false" />
-            <element signature="method#getAll#0;class#AbstarctDaoImpl#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/UserRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="56" column="18" lean-forward="false" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
-          <folding>
-            <element signature="method#toString#0;class#UserRole#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
-          <caret line="33" column="18" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-          <folding>
-            <element signature="method#User#1;class#User#0" expanded="false" />
-            <element signature="method#toString#0;class#User#0" expanded="false" />
+            <element signature="method#getCarModelsByBodyCode#0;class#CarModelDaoImpl#0" expanded="false" />
+            <element signature="method#getCarModelsByEngineType#0;class#CarModelDaoImpl#0" expanded="false" />
+            <element signature="method#getCarModelsByYearFrom#0;class#CarModelDaoImpl#0" expanded="false" />
+            <element signature="method#getCarModelsByYearTo#0;class#CarModelDaoImpl#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="90" column="18" lean-forward="false" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
-          <folding>
-            <element signature="method#Order#1;class#Order#0" expanded="false" />
-            <element signature="method#toString#0;class#Order#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/CarModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-451">
-          <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-          <folding>
-            <element signature="method#CarModel#1;class#CarModel#0" expanded="false" />
-            <element signature="method#toString#0;class#CarModel#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/CarMake.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding>
-            <element signature="method#toString#0;class#CarMake#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/AutopartCategories.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="method#AutopartCategories#0;class#AutopartCategories#0" expanded="false" />
-            <element signature="method#toString#0;class#AutopartCategories#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/AutopartBrand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-          <folding>
-            <element signature="e#313#316#0" expanded="false" />
-            <element signature="method#AutopartBrand#0;class#AutopartBrand#0" expanded="false" />
-            <element signature="method#toString#0;class#AutopartBrand#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/Autopart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="137" column="18" lean-forward="false" selection-start-line="137" selection-start-column="18" selection-end-line="137" selection-end-column="18" />
-          <folding>
-            <element signature="method#Autopart#0;class#Autopart#0" expanded="false" />
-            <element signature="method#setAutopartCategories#0;class#Autopart#0" expanded="false" />
-            <element signature="method#toString#0;class#Autopart#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/hibernateutil/HibernateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="48" column="45" lean-forward="false" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
-          <folding>
-            <element signature="method#setSessionFactory#0;class#HibernateUtil#0" expanded="false" />
-            <element signature="method#openSession#0;class#HibernateUtil#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/api/IGenericDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/entityservices/CarMakeService.java">
+    <entry file="file://$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/UserRole.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopartsstore-entity/src/main/java/com/intellisoft/autopartsstore/entitys/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
-            <element signature="method#getById#0;class#CarMakeService#0" expanded="false" />
-            <element signature="method#delete#0;class#CarMakeService#0" expanded="false" />
-            <element signature="method#getAll#0;class#CarMakeService#0" expanded="false" />
-            <element signature="method#save#0;class#CarMakeService#0" expanded="false" />
-            <element signature="method#update#0;class#CarMakeService#0" expanded="false" />
+            <element signature="method#User#1;class#User#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autopartsstore-runner/src/main/java/com/intellisoft/autopartsstore/runner/RunApp.java">
+    <entry file="file://$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/entityimpls/UserRoleDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        <state relative-caret-position="119">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/entityimpls/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding>
+            <element signature="method#getUsersByRole#0;class#UserDaoImpl#0" expanded="false" />
+            <element signature="method#getUserByFirstName#0;class#UserDaoImpl#0" expanded="false" />
+            <element signature="method#getUserByLastName#0;class#UserDaoImpl#0" expanded="false" />
+            <element signature="method#userIsRegistered#0;class#UserDaoImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/entityimpls/AutopartBrandDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding>
+            <element signature="docComment;class#AutopartBrandDaoImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/entityimpls/OrderDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="method#getOrdersByUser#0;class#OrderDaoImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/entityserviceimpls/UserRoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="101" column="49" lean-forward="false" selection-start-line="101" selection-start-column="49" selection-end-line="101" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/entityserviceimpls/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="101" column="40" lean-forward="false" selection-start-line="101" selection-start-column="40" selection-end-line="101" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/entityserviceimpls/CarModelServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="100" column="49" lean-forward="false" selection-start-line="100" selection-start-column="49" selection-end-line="100" selection-end-column="49" />
+          <folding>
+            <element signature="method#deleteCarModel#0;class#CarModelServiceImpl#0" expanded="false" />
+            <element signature="method#getAllCarModels#0;class#CarModelServiceImpl#0" expanded="false" />
+            <element signature="method#saveCarModel#0;class#CarModelServiceImpl#0" expanded="false" />
+            <element signature="method#updateCarModel#0;class#CarModelServiceImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/entityserviceimpls/CarMakeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getCarMakeById#0;class#CarMakeServiceImpl#0" expanded="false" />
+            <element signature="method#deleteCarMake#0;class#CarMakeServiceImpl#0" expanded="false" />
+            <element signature="method#getAllCarMakes#0;class#CarMakeServiceImpl#0" expanded="false" />
+            <element signature="method#saveCarMake#0;class#CarMakeServiceImpl#0" expanded="false" />
+            <element signature="method#updateCarMake#0;class#CarMakeServiceImpl#0" expanded="false" />
+            <element signature="method#getCarMakeByName#0;class#CarMakeServiceImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/genericdaoimpl/GenericDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="35" selection-end-column="41" />
+          <folding>
+            <element signature="method#save#0;class#GenericDaoImpl#0" expanded="false" />
+            <element signature="method#update#0;class#GenericDaoImpl#0" expanded="false" />
+            <element signature="method#delete#0;class#GenericDaoImpl#0" expanded="false" />
+            <element signature="method#getAll#0;class#GenericDaoImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/genecricdao/IGenericDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/genericserviceimpl/GenericServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/entityimpls/AutopartCategorieDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="47" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopartsstore-daoimpl/src/main/java/com/intellisoft/autopartsstore/dao/entityimpls/AutopartDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="docComment;class#AutopartDaoImpl#0" expanded="false" />
+            <element signature="method#getAutopartByPartNumber#0;class#AutopartDaoImpl#0" expanded="false" />
+            <element signature="method#getAutopartsByAutopartBrand#0;class#AutopartDaoImpl#0" expanded="false" />
+            <element signature="method#getAutopartsByCarModel#0;class#AutopartDaoImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/entityserviceimpls/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding>
+            <element signature="method#getUserById#0;class#UserServiceImpl#0" expanded="false" />
+            <element signature="method#deleteUser#0;class#UserServiceImpl#0" expanded="false" />
+            <element signature="method#getAllUsers#0;class#UserServiceImpl#0" expanded="false" />
+            <element signature="method#saveUser#0;class#UserServiceImpl#0" expanded="false" />
+            <element signature="method#updateUser#0;class#UserServiceImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/genericservice/GenericService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/entityserviceimpls/AutopartBrandServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="70" lean-forward="false" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/entityserviceimpls/AutopartCategorieServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="method#getAutopartCategorieById#0;class#AutopartCategorieServiceImpl#0" expanded="false" />
+            <element signature="method#deleteAutopartCategorie#0;class#AutopartCategorieServiceImpl#0" expanded="false" />
+            <element signature="method#getAllAutopartCategories#0;class#AutopartCategorieServiceImpl#0" expanded="false" />
+            <element signature="method#saveAutopartCategorie#0;class#AutopartCategorieServiceImpl#0" expanded="false" />
+            <element signature="method#updateAutopartCategorie#0;class#AutopartCategorieServiceImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/entityserviceimpls/AutopartServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="20" />
+          <folding>
+            <element signature="e#1023#1024#0" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="method#getAutopartById#0;class#AutopartServiceImpl#0" expanded="false" />
+            <element signature="method#deleteAutopart#0;class#AutopartServiceImpl#0" expanded="false" />
+            <element signature="method#getAllAutoparts#0;class#AutopartServiceImpl#0" expanded="false" />
+            <element signature="method#saveAutopart#0;class#AutopartServiceImpl#0" expanded="false" />
+            <element signature="method#updateAutopart#0;class#AutopartServiceImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/com/intellisoft/autopartsstore/service/servicesapi/IAutopartBrandService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/com/intellisoft/autopartsstore/service/servicesapi/IAutopartCategorieService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopartsstore-service/src/main/java/com/intellisoft/autopartsstore/service/com/intellisoft/autopartsstore/service/servicesapi/IAutopartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="67" lean-forward="false" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/entitydao/IAutopartBrandDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/entitydao/IAutopartCategorieDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/entitydao/IAutopartDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="102" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="20" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/entitydao/IOrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/entitydao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="90" lean-forward="false" selection-start-line="18" selection-start-column="90" selection-end-line="18" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/entitydao/IUserRoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/entitydao/ICarMakeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopartsstore-dao/src/main/java/com/intellisoft/autopartsstore/dao/entitydao/ICarModelDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1294,7 +1535,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>autopartsstore-dao</last-edited>
+          <last-edited>autopartsstore-service</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -31,7 +31,7 @@ public class Autopart implements Serializable {
     private AutopartBrand autopartBrand;
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "part_categories_id")
-    private AutopartCategories autopartCategories;
+    private AutopartCategorie autopartCategories;
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "car_models_id")
     private CarModel carModel;
@@ -62,11 +62,11 @@ public class Autopart implements Serializable {
         this.autopartBrand = autopartBrand;
     }
 
-    public AutopartCategories getAutopartCategories() {
+    public AutopartCategorie getAutopartCategories() {
         return autopartCategories;
     }
 
-    public void setAutopartCategories(AutopartCategories autopartCategories) {
+    public void setAutopartCategories(AutopartCategorie autopartCategories) {
         this.autopartCategories = autopartCategories;
     }
 

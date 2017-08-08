@@ -11,7 +11,6 @@
     <modules>
         <module>autopartsstore-entity</module>
         <module>autopartsstore-runner</module>
-        <module>autopartsstore-hibernateconfig</module>
         <module>autopartsstore-dao</module>
         <module>autopartsstore-service</module>
         <module>autopartsstore-daoimpl</module>
