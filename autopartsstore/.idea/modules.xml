@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/autopartsstore.iml" filepath="$PROJECT_DIR$/autopartsstore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/autopartsstore-api/autopartsstore-api.iml" filepath="$PROJECT_DIR$/autopartsstore-api/autopartsstore-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/autopartsstore-dao/autopartsstore-dao.iml" filepath="$PROJECT_DIR$/autopartsstore-dao/autopartsstore-dao.iml" />
-      <module fileurl="file://$PROJECT_DIR$/autopartsstore-daoimpl/autopartsstore-daoimpl.iml" filepath="$PROJECT_DIR$/autopartsstore-daoimpl/autopartsstore-daoimpl.iml" />
       <module fileurl="file://$PROJECT_DIR$/autopartsstore-entity/autopartsstore-entity.iml" filepath="$PROJECT_DIR$/autopartsstore-entity/autopartsstore-entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/autopartsstore-runner/autopartsstore-runner.iml" filepath="$PROJECT_DIR$/autopartsstore-runner/autopartsstore-runner.iml" />
       <module fileurl="file://$PROJECT_DIR$/autopartsstore-service/autopartsstore-service.iml" filepath="$PROJECT_DIR$/autopartsstore-service/autopartsstore-service.iml" />

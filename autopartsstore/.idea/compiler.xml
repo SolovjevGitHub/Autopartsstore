@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="autopartsstore-api" />
         <module name="autopartsstore-dao" />
-        <module name="autopartsstore-daoimpl" />
         <module name="autopartsstore-entity" />
         <module name="autopartsstore-runner" />
         <module name="autopartsstore-service" />
@@ -15,6 +15,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="autopartsstore" target="1.5" />
+      <module name="autopartsstore-api" target="1.5" />
       <module name="autopartsstore-dao" target="1.5" />
       <module name="autopartsstore-daoimpl" target="1.5" />
       <module name="autopartsstore-entity" target="1.5" />
